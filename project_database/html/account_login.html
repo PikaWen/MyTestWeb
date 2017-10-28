@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta charset="utf-8">
+    <title>My Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    <script src="js/respond.js"></script>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-header">
+  <ul class="nav navbar-nav" >
+  <a href="index.html" class="navbar-brand">WeN °ε°</a>
+    <li class="active"><a href="index.html">首頁</a></li>
+    <li><a href="content.html">公告</a></li>
+    <li ><a href="photo.html">文章</a></li>
+    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" role="button" expanded="false" href="#" id="myaccount">我的帳號<span class="caret"></span></a>
+    <ul class="dropdown-menu" role="menu">
+    <li><a href="#">個人資料</a></li>
+    <li><a href="#">個人文章</a></li>
+    <li><a href="#">收藏文章</a></li>
+    </ul>
+    </li>
+    <li><a style="color: #eee" href="account_login.html" id="login">會員登入</a></li>
+       <li><a style="color: #eee" href="account_register.html" id="create">註冊</a></li>
+  </ul>
+  </div>
+
+  </nav>
+
+
+
+<header class="bgimage" >
+<div class="header">
+      <h1 class="headera">Shih-Wen.com</h1>
+</div></header>
+  <div class="services">
+    <ol class="breadcrumb">
+    <li id="navlist"><a href="index.html">首頁</a></li>
+    <li id="navlist1" style="color: #eee">會員登入 <span style="font-family: Gill Sans MT Condensed">ˊωˋ</span> </li>
+    </ol>
+  </div>
+    <div class="aaa">
+           <ul class="nav nav-pills nav-stacked" id="nav">
+         <li class="active"><a href="index.html" style="color: #eee">首頁</a></li>
+        <li><a href="#.html">最新文章</a></li>
+        <li><a href="#.html">文章分類</a></li>
+        <li><a href="#.html">查詢文章</a></li>
+        <li><a href="#.html">留言板</a></li>
+      </ul> 
+    </div>
+
+    <div class="content" align="center">
+    <table border="0">
+    <tr><th><h3 align="center">&nbsp會員登入</h3><br></th></tr>
+ <form name=form1 id="form1" action="SQL_insert.jsp" method="post" accept-charset="Big5">
+<tr><th><B>帳號 : </B>&nbsp&nbsp&nbsp
+<input type=text name="account" id="account"><br><br></th></tr>
+<tr><th><B>密碼 : </B>&nbsp&nbsp&nbsp
+<input type=password name="pasw" id="pasw"><br><br></th></tr>
+<tr><th>&nbsp&nbsp<input type=checkbox name="box" id="box">&nbsp&nbsp保持今日的登入狀態</th></tr>
+<tr><td align="center"><button type=button class="btn btn-default" name="bun" onclick="self.location.href='#.html'">登入</button></td></tr>
+</form>
+</table>
+&nbsp&nbsp<button type=button class="btn btn-danger" name="bun1" onclick="self.location.href='#.html'">忘記密碼</button>
+&nbsp&nbsp<button type=button class="btn btn-danger" name="bun2" onclick="self.location.href='account_register.html'" >加入會員</button><br><br>
+</div>
+   <div class="breadcrumb">Created 2016 by shih wen.</div>
+</div>
+<!-- javascript -->
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>
